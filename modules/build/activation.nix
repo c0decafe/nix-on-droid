@@ -19,6 +19,7 @@ let
     pkgs.gnugrep
     pkgs.gnused
     pkgs.ncurses # For `tput`.
+    pkgs.openssh
     config.nix.package
   ];
 
