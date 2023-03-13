@@ -29,6 +29,7 @@ with lib;
       '';
 
       "resolv.conf".text = ''
+        nameserver 10.101.68.148
         nameserver 1.1.1.1
         nameserver 8.8.8.8
       '';
